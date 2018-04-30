@@ -1,4 +1,4 @@
-FROM plumber
+FROM trestletech/plumber
 RUN mkdir -p /app/
 WORKDIR /app/
 COPY deploy_credit_model.R /app/
